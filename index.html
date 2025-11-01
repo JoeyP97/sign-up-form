@@ -9,28 +9,48 @@
 </head>
 <body>
     <div class="logo-area">
-        <div class="logo">LOGO</div>
+        <div class="logo"> WOOP</div>
+        <div class="credit">Photo by Teemu Paananen on Unisplash</div>
     </div>
     <div class="form-area">
         <div class="form-header">This is a header for the form</div>
         <div class="form-container">
             <h3 class="form-title">Form</h3>
             <div class="forms">
-                <div class="forms-1">
-                    <form action="" class="page-form">
-                    <label for="firstName">First Name:</label>
-                    <input type="text" id="firstName">
-                    </form>
-                </div>
-                <div class="forms-1">
-                    <form action="" class="page-form">
-                    <label for="lastName">Last Name:</label>
-                    <input type="text" id="lastName">
-                    </form>
-                </div>
+                <form action="#" method="get" class="form-form">
+                    <div class="form-colomn">
+                        <div class="label">
+                            <label for="first-name">First Name:</label>
+                        </div>
+                        <input type="text" id="first-name" name="first-name" required>
+                        <div class="label">
+                            <label for="email">Email:</label>
+                        </div>
+                        <input type="email" name="email" id="email" required>
+                        <div class="label">
+                            <label for="password">Password:</label>
+                        </div>
+                        <input type="password" name="password" id="password" min="3" required>
+                    </div>
+                    <div class="form-colomn">
+                        <div class="label">
+                            <label for="last-name">Last Name:</label>
+                        </div>
+                        <input type="text" id="last-name" name="last-name" required>
+                        <div class="label">
+                            <label for="phone">Phone Number:</label>
+                        </div>
+                        <input type="tel" name="phone" id="phone" required>
+                        <div class="label">
+                            <label for="confirm">Confirm Password:</label>
+                        </div>
+                        <input type="password" name="confirm" id="confirm" min="3" required>
+                        
+                    </div>
+                    </div>
+                    <input type="submit" value="Create Account" class="submit-btn">
+                </form>
             </div>
-            
-            
         </div>
     </div>
     
